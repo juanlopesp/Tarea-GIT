@@ -75,6 +75,8 @@ public class CCuenta {
     }
     
     public void operativa_cuenta(float cantidad) {
+	System.out.print("Esta es tu cantidad: " + cantidad);
+	    
     	try {
             retirar(2300);
         } catch (Exception e) {
